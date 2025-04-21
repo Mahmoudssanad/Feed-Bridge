@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+   
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>FeedBridge</h1>
+            <p>
+                يهدف موقعنا الي ربط المطاعم و محلات الطعام بالجمعيات الخيريه لتسهيل
+                التبرع بالطعام الفائض بشكل امن و سريع. من خلاله يمكن للمتبرعين تسجيل
+                تبرعاتهم بسهوله. بينما تتولي الجمعيات عمليه التوزيع لضمان وصول
+                الطعام الي من يحتاجه, معا نصنع فرقا و نبني جسور العطاء.
+            </p>
+            <a href="payment.html" class="hero-btn">ادعمنا</a>
+        </div>
+    </div>
+</section>
+<section class="video-section" id="about">
+    <div class="video-container">
+        <video controls autoplay loop>
+            <source src="imgs/video.mp4" type="video/mp4" />
+        </video>
+        <div class="about-text">
+            <p>
+                كيف يعمل موقعنا؟<br />
+                تسجيل التبرعات أسهل من قبل!<br />
+                المطاعم و المتبرعون يسجلون الطعام الفائض عبر منصتنا الجمعيات الخيريه
+                تتلقي اشعارات بالتبرعات القريبه فرق التوزيع تستلم الطعام و توصله لمن
+                يحتاجه. معا نقلل الهدر و نساعد المحتاجين.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="partner-section">
+    <div class="partner-container">
+        <h2>شركاؤنا</h2>
+        <div class="partner-logos">
+            <div><img src="imgs/partner1.png" alt="partner1" /></div>
+            <div><img src="imgs/partner2.jpg" alt="partner2" /></div>
+            <div><img src="imgs/partner4.png" alt="partner4" /></div>
+            <div><img src="imgs/partner3.png" alt="partner3" /></div>
+        </div>
+    </div>
+</section>
+<section class="stats-section">
+    <div class="stats-container">
+        <div class="stats-card">
+            <span class="material-symbols-outlined"> schedule </span>
+            <p class="stats-num">+999</p>
+            <p>فرص التبرع المتاحه</p>
+        </div>
+        <div class="stats-card">
+            <span class="material-symbols-outlined"> sentiment_satisfied </span>
+            <p class="stats-num">+100</p>
+            <p>الفرص المكتمله</p>
+        </div>
+        <div class="stats-card">
+            <span class="material-symbols-outlined"> favorite </span>
+            <p class="stats-num">+1299</p>
+            <p>العمليات التبرعيه</p>
+        </div>
+    </div>
+</section>
+<section class="feedback-section">
+    <div class="feedback-container">
+        <div class="feedback-card">
+            <img src="imgs/person.png" alt="" />
+            <p class="feedback-text">تجربه ممتازه انصح بهذا الموقع!</p>
+            <div class="feedback-stars">
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+            </div>
+        </div>
+        <div class="feedback-card">
+            <img src="imgs/person.png" alt="" />
+            <p class="feedback-text">تجربه ممتازه انصح بهذا الموقع!</p>
+            <div class="feedback-stars">
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+                <span class="material-symbols-outlined">star</span>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-form">
+        <form>
+            <textarea placeholder="اكتب تقييمك ..." required></textarea>
+            <div class="stars">
+                <input type="checkbox" name="star" id="star1" />
+                <label for="star1" class="material-symbols-outlined"> star </label>
+                <input type="checkbox" name="star" id="star2" />
+                <label for="star2" class="material-symbols-outlined"> star </label>
+                <input type="checkbox" name="star" id="star3" />
+                <label for="star3" class="material-symbols-outlined"> star </label>
+                <input type="checkbox" name="star" id="star4" />
+                <label for="star4" class="material-symbols-outlined"> star </label>
+                <input type="checkbox" name="star" id="star5" />
+                <label for="star5" class="material-symbols-outlined"> star </label>
+            </div>
+            <button type="submit" class="btn">إرسال</button>
+        </form>
+    </div>
+</section>
+
+<script src="/js/script.js"></script>
+
+

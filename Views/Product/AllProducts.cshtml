@@ -1,0 +1,119 @@
+﻿
+@model List<Product>
+@{
+    ViewData["Title"] = "AllProducts";
+    Layout = "_Layout";
+}
+
+@* <h1>AllProducts</h1> *@
+
+@*<table class="table table-bordered table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Quantity</th>
+        <th>Expiration</th>
+        <th>Status</th>
+        <th>Category</th>
+    </tr>
+
+    @foreach(var product in Model)
+    {
+        <tr>
+            <td>@product.Name</td>
+            <td>@product.Quantity</td>
+            <td>@product.Expiration</td>
+            <td>@product.Status</td>
+            <td>@product.Category</td>
+        </tr>
+    }
+</table>*@
+
+<section class="products-hero">
+    <div class="products-hero-container">
+        <h1>طعام في انتظار من يستحق</h1>
+        <p>
+            هنا تجد قائمه بالاطعمه المتاحه للتبرع, المقدمه من المطاعم و المتبرعين
+            للمساهمه في تقليل الهدر و مساعده المحتاجين. يتم تحديث القائمه باستمرار
+            لضمان وصول الطعام الطازج لمن يستحق. اذا كنت جزءا من جمعيه خيريه ,
+            يمكنك حجز التبرعات المتاحه بسهوله.
+        </p>
+    </div>
+</section>
+<section class="products-cards">
+    <h2 class="products-header">المنتجات</h2>
+    <div class="products-cards-container">
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn"></button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="/imgs/img.png" alt="food" />
+            <div class="product-card-text">
+                <h2>اسم المنتج</h2>
+                <p>الوصف</p>
+                <span>07/03/2025</span>
+                <button class="btn">اضف الي السله</button>
+            </div>
+        </div>
+    </div>
+</section>
+
