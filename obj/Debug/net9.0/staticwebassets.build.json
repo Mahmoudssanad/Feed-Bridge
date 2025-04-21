@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ucBmvq1auAcvB8dOBBHEA8gPVD7bcAbl+k6CqoXCOrg=",
+  "Hash": "aoWLzbwJG5+lnWL00tvw+3ZCNsWW9dOBGQeaOuGzCzo=",
   "Source": "FeedBridge_00",
   "BasePath": "_content/FeedBridge_00",
   "Mode": "Default",
@@ -479,12 +479,12 @@
       "OriginalItemSpec": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-rwmmjjq4pt.gz",
+      "Identity": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-h2ax4ixofs.gz",
       "SourceId": "FeedBridge_00",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/FeedBridge_00",
-      "RelativePath": "js/script#[.{fingerprint=rwmmjjq4pt}]?.js.gz",
+      "RelativePath": "js/script#[.{fingerprint=h2ax4ixofs}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -493,8 +493,8 @@
       "RelatedAsset": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\js\\script.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kfdarzfnrr",
-      "Integrity": "gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY=",
+      "Fingerprint": "ebbd3b4fva",
+      "Integrity": "dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\js\\script.js"
@@ -1837,8 +1837,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rwmmjjq4pt",
-      "Integrity": "e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE=",
+      "Fingerprint": "h2ax4ixofs",
+      "Integrity": "xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -5981,13 +5981,13 @@
       ]
     },
     {
-      "Route": "js/script.js",
-      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-rwmmjjq4pt.gz",
+      "Route": "js/script.h2ax4ixofs.js",
+      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-h2ax4ixofs.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000431592577"
+          "Quality": "0.000430292599"
         }
       ],
       "ResponseHeaders": [
@@ -5997,19 +5997,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2316"
+          "Value": "2323"
         },
         {
           "Name": "ETag",
-          "Value": "\"gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY=\""
+          "Value": "\"dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -6025,18 +6025,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE=\""
+          "Value": "W/\"xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "h2ax4ixofs"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE="
+          "Value": "sha256-xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4="
         }
       ]
     },
     {
-      "Route": "js/script.js",
+      "Route": "js/script.h2ax4ixofs.js",
       "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6046,7 +6054,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8996"
+          "Value": "9044"
         },
         {
           "Name": "Content-Type",
@@ -6054,121 +6062,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE=\""
+          "Value": "\"xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.js.gz",
-      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-rwmmjjq4pt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2316"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.rwmmjjq4pt.js",
-      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-rwmmjjq4pt.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000431592577"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2316"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rwmmjjq4pt"
+          "Value": "h2ax4ixofs"
         },
         {
           "Name": "label",
@@ -6176,13 +6084,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE="
+          "Value": "sha256-xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4="
         }
       ]
     },
     {
-      "Route": "js/script.rwmmjjq4pt.js",
-      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\js\\script.js",
+      "Route": "js/script.h2ax4ixofs.js.gz",
+      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-h2ax4ixofs.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6191,7 +6099,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8996"
+          "Value": "2323"
         },
         {
           "Name": "Content-Type",
@@ -6199,56 +6107,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE=\""
+          "Value": "\"dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rwmmjjq4pt"
-        },
-        {
-          "Name": "label",
-          "Value": "js/script.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-e9z+8GuVcAcnlDxoYv2mXNfIKQqtYjBJFib4BSOK3BE="
-        }
-      ]
-    },
-    {
-      "Route": "js/script.rwmmjjq4pt.js.gz",
-      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-rwmmjjq4pt.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2316"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 18 Apr 2025 18:59:39 GMT"
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6266,7 +6129,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rwmmjjq4pt"
+          "Value": "h2ax4ixofs"
         },
         {
           "Name": "label",
@@ -6274,7 +6137,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gIb/YcM2Y7OjqyWjrJ9s34iWXNHhizSNC56ATddLXIY="
+          "Value": "sha256-dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-h2ax4ixofs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000430292599"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2323"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xzIsMIjYVJLDrUyIE5ZdhW6+rCa8C9QCQh7EzCbQAp4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js.gz",
+      "AssetFile": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\obj\\Debug\\net9.0\\compressed\\aqgoyyr1ah-h2ax4ixofs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 21 Apr 2025 19:38:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dpbLHV4701iXmWqbgEKY3EX0RujC5o0zI7RaK+5U4Fc="
         }
       ]
     },

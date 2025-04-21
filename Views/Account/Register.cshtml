@@ -1,4 +1,5 @@
-﻿
+﻿@using FeedBridge_00.ViewModels
+@model RegisterUserVM
 @{
     Layout = null;
 }
@@ -47,10 +48,10 @@
                 <img src="/imgs/image.png" alt="" />
                 <p>انشاء حساب</p>
             </div>
-            <form asp-action="SaveRegister" id="register-form">
+           @* <form asp-action="SaveRegister" id="register-form">
                 <div class="register-form-group">
                     <div class="form-control">
-                        <label for="username">الاسم</label>
+                        <label asp-for="Name">الاسم</label>
                         <input type="text" name="username" id="username" />
                         <i class="fa-solid fa-circle-exclamation"></i>
                         <i class="fa-solid fa-circle-check"></i>
@@ -114,9 +115,70 @@
                     ارسال
                 </button>
                 <a href="/Account/Login">لديك حساب؟</a>
+            </form>*@
+
+            <form asp-action="SaveRegister" id="register-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="register-form-group">
+                    <div class="form-control">
+                        <label asp-for="Name">الاسم</label>
+                        <input asp-for="Name" type="text" id="username" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-control">
+                        <label asp-for="BirthDate">تاريخ الميلاد</label>
+                        <input asp-for="BirthDate" type="date" id="dob" />
+                        <span asp-validation-for="BirthDate" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <label asp-for="PhoneNumber">رقم التليفون</label>
+                    <input asp-for="PhoneNumber" type="tel" id="phone" dir="rtl" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <div class="register-form-group">
+                    <div class="form-control">
+                        <label asp-for="Country">الدوله</label>
+                        <input asp-for="Country" type="text" id="country" />
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+                    <div class="form-control">
+                        <label asp-for="Town">المدينه</label>
+                        <input asp-for="Town" type="text" id="city" />
+                        <span asp-validation-for="Town" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <label asp-for="Email">الايميل</label>
+                    <input asp-for="Email" type="email" id="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="form-control">
+                    <label asp-for="Password">كلمه السر</label>
+                    <input asp-for="Password" type="password" id="password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+
+                <div class="form-control">
+                    <label asp-for="ConfirmPassword">تاكيد كلمه السر</label>
+                    <input asp-for="ConfirmPassword" type="password" id="confirm-password" />
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="submit-btn btn" id="register-btn">
+                    ارسال
+                </button>
+
+                <a href="/Account/Login">لديك حساب؟</a>
             </form>
+
         </div>
     </div>
-    <script src="/js/script.js"></script>
+    @* <script src="/js/script.js"></script> *@
 </body>
 </html>

@@ -1,4 +1,7 @@
-﻿
+﻿@using FeedBridge_00.ViewModels
+
+@model LoginUserVM
+
 @{
     Layout = null;
 }
@@ -45,27 +48,50 @@
         <div class="login">
             <img src="/imgs/image.png" alt="user-icon" class="login-img" />
             <h1 class="login-header">تسجيل الدخول</h1>
-            <form class="login-form" id="login-form" asp-action="SaveLogin" asp-controller="Account">
+            @* <form class="login-form" id="login-form" asp-action="SaveLogin" asp-controller="Account"> *@
+            @*     <div class="form-control"> *@
+            @*         <label for="username">الايميل</label> *@
+            @*         <input type="email" name="email" id="email" /> *@
+            @*         <i class="fa-solid fa-circle-exclamation"></i> *@
+            @*         <i class="fa-solid fa-circle-check"></i> *@
+            @*         <small></small> *@
+            @*     </div> *@
+            @*     <div class="form-control"> *@
+            @*         <label for="password">كلمه المرور</label> *@
+            @*         <input type="password" name="password" id="password" /> *@
+            @*         <i class="fa-solid fa-circle-exclamation"></i> *@
+            @*         <i class="fa-solid fa-circle-check"></i> *@
+            @*         <small></small> *@
+            @*     </div> *@
+            @*     <input type="submit" value="ارسال" class="btn btn-primary" /> *@
+            @*     <a href="/Account/Register">ليس لديك حساب؟</a> *@
+            @* </form> *@
+
+            <form class="login-form" id="login-form" asp-action="SaveLogin" asp-controller="Account" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
                 <div class="form-control">
-                    <label for="username">الايميل</label>
-                    <input type="email" name="email" id="email" />
+                    <label asp-for="Email">الايميل</label>
+                    <input asp-for="Email" type="email" id="email" />
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
+                    <small><span asp-validation-for="Email" class="text-danger"></span></small>
                 </div>
+
                 <div class="form-control">
-                    <label for="password">كلمه المرور</label>
-                    <input type="password" name="password" id="password" />
+                    <label asp-for="Password">كلمه المرور</label>
+                    <input asp-for="Password" type="password" id="password" />
                     <i class="fa-solid fa-circle-exclamation"></i>
                     <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
+                    <small><span asp-validation-for="Password" class="text-danger"></span></small>
                 </div>
-                <input type="button" value="ارسال" class="btn btn-primary" />
-                <a href="/Account/Register">ليس لديك حساب؟</a>
+
+                <input type="submit" value="ارسال" class="btn btn-primary" />
+                <a href="/Account/Register">انشاء حساب؟</a>
             </form>
         </div>
     </div>
-    <script src="/js/script.js"></script>
+     <script src="/js/script.js"></script>
 </body>
 </html>
 

@@ -4,11 +4,13 @@ namespace FeedBridge_00.ViewModels
 {
     public class LoginUserVM
     {
-        [Required(ErrorMessage = "*")]
-        public string Name { get; set; }
-        [DataType(DataType.Password)]
+        [Display(Name = "البريد الإلكتروني", Prompt = "أدخل بريدك الإلكتروني")]
+        public string Email { get; set; }
+
+        [Display(Name = "كلمة المرور", Prompt = "أدخل كلمة المرور")]
         public string Password { get; set; }
-        [Display(Name = "Remember Me!!")]
+
+        [Display(Name = "تذكرني")]
         public bool RememberMe { get; set; }
     }
 }

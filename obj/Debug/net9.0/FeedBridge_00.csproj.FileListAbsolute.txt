@@ -357,7 +357,6 @@ D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\ru\M
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
-D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\obj\Debug\net9.0\compressed\aqgoyyr1ah-rwmmjjq4pt.gz
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\obj\Debug\net9.0\compressed\5zy3cmwrze-hc82k71o6u.gz
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\System.Web.Mvc.dll
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\System.Web.Razor.dll
@@ -372,3 +371,5 @@ D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\Micr
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\obj\Debug\net9.0\compressed\sjmomp3dsm-qsh8osplq3.gz
+D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\obj\Debug\net9.0\FeedBridge_00.sourcelink.json
+D:\Projects\FeedBridge_Project\FeedBridge_00\FeedBridge_00\obj\Debug\net9.0\compressed\aqgoyyr1ah-h2ax4ixofs.gz

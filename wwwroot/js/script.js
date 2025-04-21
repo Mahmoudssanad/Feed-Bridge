@@ -73,17 +73,17 @@ const validateRegisterForm = () => {
       password: passwordVal,
     };
 
-    fetch("/auth/register", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        alert("تم التسجيل بنجاح");
-        // Redirect أو أي شيء آخر
-      })
-      .catch((err) => console.error("حدث خطأ:", err));
+    //fetch("/auth/register", {
+    //  method: "POST",
+    //  headers: { "Content-Type": "application/json" },
+    //  body: JSON.stringify(data),
+    //})
+    //  .then((res) => res.json())
+    //  .then((data) => {
+    //    alert("تم التسجيل بنجاح");
+    //    // Redirect أو أي شيء آخر
+    //  })
+    //  .catch((err) => console.error("حدث خطأ:", err));
   }
 };
 
@@ -107,21 +107,21 @@ const validateLoginForm = () => {
       password: passwordVal,
     };
 
-    fetch("/auth/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(data),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.success) {
-          alert("تم تسجيل الدخول");
-          window.location.href = data.redirect; // أو أي صفحة
-        } else {
-          alert("بيانات غير صحيحة");
-        }
-      })
-      .catch((err) => console.error("حدث خطأ:", err));
+    //fetch("//login", {
+    //  method: "POST",
+    //  headers: { "Content-Type": "application/json" },
+    //  body: JSON.stringify(data),
+    //})
+    //  .then((res) => res.json())
+    //  .then((data) => {
+    //    if (data.success) {
+    //      alert("تم تسجيل الدخول");
+    //      window.location.href = data.redirect; // أو أي صفحة
+    //    } else {
+    //      alert("بيانات غير صحيحة");
+    //    }
+    //  })
+    //  .catch((err) => console.error("حدث خطأ:", err));
   }
 };
 
