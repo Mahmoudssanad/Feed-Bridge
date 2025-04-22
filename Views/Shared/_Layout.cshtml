@@ -14,31 +14,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FeedBridge</title>
     <link rel="stylesheet" href="/css/main.css" />
-    <style>
-                /* Custom dropdown styling to match your theme */
-        .dropdown-toggle {
-            cursor: pointer;
-            user-select: none;
-        }
 
-        .dropdown-menu {
-            border: none;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            min-width: 180px;
-        }
 
-        .dropdown-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 16px;
-            font-size: 14px;
-        }
+     
 
-        .dropdown-item .material-symbols-outlined {
-            font-size: 18px;
-        }
-    </style>
+    
+
 </head>
 <body>
     <header class="header">
@@ -50,15 +31,12 @@
         <ul class="page-items">
             <li><a href="/Home/index">الرئيسيه</a></li>
             <li><a href="/Product/AllProducts">المنتجات</a></li>
-            <li><a href="donate.html">تبرع</a></li>
-            <li><a href="#about">عن الموقع</a></li>
+            <li><a href="/Donation/Index">تبرع</a></li>
+            <li><a href="/home/index#about">عن الموقع</a></li>
         </ul>
         <div class="header-icons">
-            <a href="/cart.html">
+            <a href="/Cart/Show">
                 <span class="material-symbols-outlined">shopping_cart</span>
-            </a>
-
-            <div class="dropdown">
                 <!-- Account Icon (Dropdown Trigger) -->
                 <span class="material-symbols-outlined dropdown-toggle"
                       id="accountDropdown"
@@ -66,6 +44,10 @@
                       aria-expanded="false">
                     account_circle
                 </span>
+            </a>
+
+            <div class="dropdown">
+                
 
                 <!-- Dropdown Menu -->
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
@@ -126,8 +108,19 @@
         </div>
         <p class="copy-rights">جميع الحقوق محفوظه لمنصه FeedBridge</p>
     </footer>
-    <script src="script.js"></script>
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<script src="script.js"></script>
+<!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+
+             const dropdownToggle = document.querySelector(".dropdown-toggle");
+    const dropdownMenu = document.querySelector(".dropdown-menu");
+    if (dropdownToggle) {
+      dropdownToggle.addEventListener("click", () => {
+        dropdownMenu.style.display = dropdownMenu.style.display === "flex" ? "none" : "flex";
+      })
+    }
+</script>

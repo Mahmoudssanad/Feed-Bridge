@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewData["Title"] = "show";
+
+    Layout = null;
+}
+
+@model List<FeedBridge_00.ViewModels.CartItemVM>
+
+<link rel="stylesheet" href="/css/main.css" />
+<style>
+    .order-success {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .alert {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .order-confirmation .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+        .order-confirmation .btn:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+
+<div class="cart-container">
+    <h2 class="cart-header">سله المنتجات</h2>
+
+    @foreach (var item in Model)
+    {
+        <div class="cart-item">
+            <div class="product-section">
+                <div class="product-info">
+                    <div class="product-image">
+                        <img src="/imgs/@item.Image" alt="@item.Name" />
+                    </div>
+                    <div class="product-text">
+                        <div>@item.Name</div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="qty-section">
+                <div class="quantity-controls">
+                    <span class="quantity">@item.Quantity</span>
+
+                    <div class="control-btns">
+                        <form asp-controller="Cart" asp-action="DecreaseQuantity" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="dec-btn">-</button>
+                        </form>
+
+                        <form asp-controller="Cart" asp-action="IncreaseQuantity" method="post" style="display:inline;">
+                            <input type="hidden" name="productId" value="@item.ProductId" />
+                            <button type="submit" class="inc-btn">+</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <section class="order-success">
+        <!-- عرض رسالة النجاح أو الخطأ -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <!-- زر تأكيد الطلب -->
+        <div class="order-confirmation">
+            <form method="post" action="@Url.Action("ConfirmOrder", "Cart")">
+                <button type="submit" class="btn btn-primary">تأكيد الطلب</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+
+
+@* <script src="/js/script.js"></script> *@
+

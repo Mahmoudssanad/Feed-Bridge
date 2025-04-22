@@ -3,6 +3,7 @@ using FeedBridge_00.Models.Entities;
 using FeedBridge_00.Models.Status;
 using FeedBridge_00.Repository;
 using FeedBridge_00.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FeedBridge_00.Controllers
@@ -15,13 +16,14 @@ namespace FeedBridge_00.Controllers
         //    _productRepository = productRepository;
         //}
 
+
+
         IProductService _productService;
         public ProductController(IProductService productService)
         {
             _productService = productService;
         }
-
-
+        [Authorize]
         public IActionResult AllProducts()
         {
             List<Product> products = _productService.GetAll();

@@ -1,5 +1,6 @@
 ﻿using FeedBridge_00.Models;
 using FeedBridge_00.Models.Entities;
+using FeedBridge_00.ViewModels;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace FeedBridge_00.Repository

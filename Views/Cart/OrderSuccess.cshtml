@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "OrderSuccess";
+    Layout = null;
+}
+
+@* @{ *@
+@*     ViewData["Title"] = "تم تأكيد الطلب"; *@
+@* } *@
+
+<style>
+    .order-success-container {
+        max-width: 600px;
+        margin: 80px auto;
+        padding: 40px;
+        background-color: #f1fdf4;
+        border: 1px solid #c9f1d6;
+        border-radius: 15px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .order-success-header {
+        font-size: 28px;
+        color: #2e7d32;
+        margin-bottom: 20px;
+    }
+
+    .order-success-container p {
+        font-size: 18px;
+        color: #444;
+        margin-bottom: 30px;
+    }
+
+    .order-success-container .btn {
+        background-color: #2e7d32;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+        .order-success-container .btn:hover {
+            background-color: #256529;
+        }
+</style>
+
+<div class="order-success-container" style="text-align: center; padding: 50px;">
+    <h2 class="order-success-header" style="color: green;">✅ تم تأكيد طلبك بنجاح!</h2>
+    <p style="font-size: 18px; margin-top: 20px;"> 
+         @* شكراً لك على مساهمتك ❤️ سيتم تجهيز التبرعات في أقرب وقت.  *@
+     </p>
+
+    <a asp-controller="Product" asp-action="AllProducts" class="btn btn-primary" style="margin-top: 30px;">
+        الرجوع إلى صفحة المنتجات
+    </a>
+</div>
+
+

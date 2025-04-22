@@ -1,0 +1,62 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+     <div class="donate-container"> 
+         <div class="donate-img"> 
+             <img src="/imgs/donation.png" alt="donate-img" /> 
+         </div> 
+        <div class="donate-form">
+            <form action="">
+                <label for="donationFile" class="upload-img">
+                    <span class="material-symbols-outlined" id="uploadIcon">
+                        upload
+                    </span>
+                    <p>اضف صوره المنتج</p>
+                    <input type="file"
+                           name="donationFile"
+                           id="donationFile"
+                           accept="image/*" />
+                </label>
+                <input type="text"
+                       name="donarName"
+                       id="donationName"
+                       placeholder="الاسم بالكامل ..."
+                       required />
+                <div class="group">
+                    <input type="date"
+                           name="expireDate"
+                           id="expireDate"
+                           placeholder="تاريخ انتهاء الصلاحيه ..."
+                           required />
+                    <input type="number"
+                           name="donationQuantity"
+                           id="donationQuantity"
+                           min="0"
+                           placeholder="الكمية ..."
+                           required />
+                </div>
+                <div class="group">
+                    <input type="text"
+                           name="donationAddress"
+                           id="donationAddress"
+                           placeholder="العنوان ..."
+                           required />
+                    <input type="phone"
+                           name="donationPhone"
+                           id="donationPhone"
+                           placeholder="رقم الهاتف ..."
+                           required />
+                </div>
+                <input type="text"
+                       name="donationDescription"
+                       id="donationDescription"
+                       class="donationDescription"
+                       placeholder="وصف التبرع ..."
+                       required />
+                <button type="submit" class="btn">تبرع</button>
+            </form>
+        </div>
+    </div> 
+     @* <script src="script.js"></script>  *@
+

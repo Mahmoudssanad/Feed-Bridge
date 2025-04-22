@@ -32,12 +32,12 @@
         <ul class="page-items">
             <li><a href="/Home/index">الرئيسيه</a></li>
             <li><a href="/product/AllProducts">المنتجات</a></li>
-            <li><a href="donate/donation">تبرع</a></li>
-            <li><a href="index.html#about">عن الموقع</a></li>
+            <li><a href="/Donation/Index">تبرع</a></li>
+            <li><a href="/home/index">عن الموقع</a></li>
         </ul>
         <span class="material-symbols-outlined mobile-icon"> menu </span>
         <div class="header-icons">
-            <a href="/css/Cart.html">
+            <a href="/Cart/Show">
                 <span class="material-symbols-outlined"> shopping_cart </span>
             </a>
             <span class="material-symbols-outlined"> account_circle </span>
@@ -48,27 +48,8 @@
         <div class="login">
             <img src="/imgs/image.png" alt="user-icon" class="login-img" />
             <h1 class="login-header">تسجيل الدخول</h1>
-            @* <form class="login-form" id="login-form" asp-action="SaveLogin" asp-controller="Account"> *@
-            @*     <div class="form-control"> *@
-            @*         <label for="username">الايميل</label> *@
-            @*         <input type="email" name="email" id="email" /> *@
-            @*         <i class="fa-solid fa-circle-exclamation"></i> *@
-            @*         <i class="fa-solid fa-circle-check"></i> *@
-            @*         <small></small> *@
-            @*     </div> *@
-            @*     <div class="form-control"> *@
-            @*         <label for="password">كلمه المرور</label> *@
-            @*         <input type="password" name="password" id="password" /> *@
-            @*         <i class="fa-solid fa-circle-exclamation"></i> *@
-            @*         <i class="fa-solid fa-circle-check"></i> *@
-            @*         <small></small> *@
-            @*     </div> *@
-            @*     <input type="submit" value="ارسال" class="btn btn-primary" /> *@
-            @*     <a href="/Account/Register">ليس لديك حساب؟</a> *@
-            @* </form> *@
-
             <form class="login-form" id="login-form" asp-action="SaveLogin" asp-controller="Account" method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div asp-validation-summary="All" class="text-danger"></div>
 
                 <div class="form-control">
                     <label asp-for="Email">الايميل</label>
@@ -91,7 +72,7 @@
             </form>
         </div>
     </div>
-     <script src="/js/script.js"></script>
+     @* <script src="/js/script.js"></script> *@
 </body>
 </html>
 

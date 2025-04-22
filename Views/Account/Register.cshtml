@@ -16,10 +16,10 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
           crossorigin="anonymous"
-          referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          referrerpolicy="no-referrer"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>FeedBridge</title>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/main.css"/>
 </head>
 <body>
     <header class="header">
@@ -31,11 +31,11 @@
         <ul class="page-items">
             <li><a href="/Home/index">الرئيسيه</a></li>
             <li><a href="/Product/AllProducts">المنتجات</a></li>
-            <li><a href="donate.html">تبرع</a></li>
+            <li><a href="/Donation/Index">تبرع</a></li>
             <li><a href="index.html#about">عن الموقع</a></li>
         </ul>
         <div class="header-icons">
-            <a href="cart.html">
+            <a href="/Cart/show">
                 <span class="material-symbols-outlined"> shopping_cart </span>
             </a>
             <span class="material-symbols-outlined"> account_circle </span>
@@ -48,75 +48,7 @@
                 <img src="/imgs/image.png" alt="" />
                 <p>انشاء حساب</p>
             </div>
-           @* <form asp-action="SaveRegister" id="register-form">
-                <div class="register-form-group">
-                    <div class="form-control">
-                        <label asp-for="Name">الاسم</label>
-                        <input type="text" name="username" id="username" />
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                        <i class="fa-solid fa-circle-check"></i>
-                        <small></small>
-                    </div>
-                    <div class="form-control">
-                        <label for="age">السن</label>
-                        <input type="number" name="age" id="age" />
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                        <i class="fa-solid fa-circle-check"></i>
-                        <small></small>
-                    </div>
-                </div>
-                <div class="form-control">
-                    <label for="phone">رقم التليفون</label>
-                    <input type="tel" name="phone" id="phone" dir="rtl" />
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
-                </div>
-                <div class="register-form-group">
-                    <div class="form-control">
-                        <label for="country">الدوله</label>
-                        <input type="text" name="country" id="country" />
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                        <i class="fa-solid fa-circle-check"></i>
-                        <small></small>
-                    </div>
-                    <div class="form-control">
-                        <label for="city">المدينه</label>
-                        <input type="text" name="city" id="city" />
-                        <i class="fa-solid fa-circle-exclamation"></i>
-                        <i class="fa-solid fa-circle-check"></i>
-                        <small></small>
-                    </div>
-                </div>
-                <div class="form-control">
-                    <label for="email">الايميل</label>
-                    <input type="email" name="email" id="email" />
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
-                </div>
-                <div class="form-control">
-                    <label for="password">كلمه السر</label>
-                    <input type="password" name="password" id="password" />
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
-                </div>
-                <div class="form-control">
-                    <label for="confirm-password">تاكيد كلمه السر</label>
-                    <input type="password"
-                           name="confirm-password"
-                           id="confirm-password" />
-                    <i class="fa-solid fa-circle-exclamation"></i>
-                    <i class="fa-solid fa-circle-check"></i>
-                    <small></small>
-                </div>
-                <button type="submit" class="submit-btn btn" id="register-btn">
-                    ارسال
-                </button>
-                <a href="/Account/Login">لديك حساب؟</a>
-            </form>*@
-
+  
             <form asp-action="SaveRegister" id="register-form" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
@@ -173,12 +105,12 @@
                 <button type="submit" class="submit-btn btn" id="register-btn">
                     ارسال
                 </button>
-
                 <a href="/Account/Login">لديك حساب؟</a>
             </form>
-
         </div>
     </div>
     @* <script src="/js/script.js"></script> *@
 </body>
 </html>
+
+

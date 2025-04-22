@@ -9,12 +9,80 @@
       "PackagePath": "staticwebassets\\css\\main.css"
     },
     {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\css\\main_01.css",
+      "PackagePath": "staticwebassets\\css\\main_01.css"
+    },
+    {
       "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\1.jpg",
+      "PackagePath": "staticwebassets\\imgs\\1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\10.jpg",
+      "PackagePath": "staticwebassets\\imgs\\10.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\11.jpg",
+      "PackagePath": "staticwebassets\\imgs\\11.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\12.jpg",
+      "PackagePath": "staticwebassets\\imgs\\12.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\13.jpg",
+      "PackagePath": "staticwebassets\\imgs\\13.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\14.jpg",
+      "PackagePath": "staticwebassets\\imgs\\14.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\15.jpg",
+      "PackagePath": "staticwebassets\\imgs\\15.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\16.jpg",
+      "PackagePath": "staticwebassets\\imgs\\16.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\2.jpg",
+      "PackagePath": "staticwebassets\\imgs\\2.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\3.jpg",
+      "PackagePath": "staticwebassets\\imgs\\3.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\4.jpg",
+      "PackagePath": "staticwebassets\\imgs\\4.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\5.jpg",
+      "PackagePath": "staticwebassets\\imgs\\5.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\6.jpg",
+      "PackagePath": "staticwebassets\\imgs\\6.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\7.jpg",
+      "PackagePath": "staticwebassets\\imgs\\7.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\8.jpg",
+      "PackagePath": "staticwebassets\\imgs\\8.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\9.jpg",
+      "PackagePath": "staticwebassets\\imgs\\9.jpg"
     },
     {
       "Id": "D:\\Projects\\FeedBridge_Project\\FeedBridge_00\\FeedBridge_00\\wwwroot\\imgs\\bridge.png",

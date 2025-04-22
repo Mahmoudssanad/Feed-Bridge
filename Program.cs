@@ -2,6 +2,7 @@ using FeedBridge_00.Models;
 using FeedBridge_00.Models.Entities;
 using FeedBridge_00.Repository;
 using FeedBridge_00.Services;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -25,7 +26,9 @@ namespace FeedBridge_00
             builder.Services.AddScoped<IProductRepository, ProductRepository>();
             builder.Services.AddScoped<IProductService, ProductService>();
 
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddSession();
+            builder.Services.AddScoped<ICartRepository, CartRepository>();
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>();
@@ -37,6 +40,8 @@ namespace FeedBridge_00
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseSession();
+
             app.UseRouting();
 
             app.UseAuthorization();
